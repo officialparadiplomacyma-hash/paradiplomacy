@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#006233" />
+    <title>
+      المنظمة المغربية للديبلوماسية الموازية | Moroccan Parallel Diplomacy
+      Organization
+    </title>
+    <meta
+      name="description"
+      content="المنظمة المغربية للديبلوماسية الموازية داخل الوطن وخارجه - تعزيز الهوية الثقافية المغربية والدبلوماسية الشعبية"
+    />
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">
+          <div class="logo-icon">
+            <img src="image/logo.png" alt="logo" />
+          </div>
+          <div class="logo-text">
+            <span class="logo-title">المنظمة المغربية</span>
+            <span class="logo-subtitle">للديبلوماسية الموازية</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+          <li><a href="#heritage" class="nav-link">التراث</a></li>
+          <li><a href="#news" class="nav-link">الأخبار</a></li>
+          <li><a href="#auth" class="nav-link">تسجيل الدخول</a></li>
+          <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+        </ul>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero-bg">
+          <img src="image/hero-morocco.jpg" alt="العمارة المغربية الملكية" />
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content container">
+          <div class="hero-badge">منظمة دبلوماسية معتمدة</div>
+          <h1 class="hero-title">المنظمة المغربية للديبلوماسية الموازية</h1>
+          <p class="hero-subtitle">داخل الوطن وخارجه</p>
+          <p class="hero-description">
+            نعمل على تعزيز الهوية المغربية الوطنية و الثقافية و الدينية وبناء
+            جسور التواصل بين المغرب و العالم من خلال الدبلوماسية الموازية في
+            إطار التبادل الثقافي
+          </p>
+          <div class="hero-buttons">
+            <a href="#heritage" class="btn btn-primary">اكتشف تراثنا</a>
+            <a href="#contact" class="btn btn-outline">تواصل معنا</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">0</span>
+              <span class="stat-label">شراكة دولية</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">0</span>
+              <span class="stat-label">فعالية ثقافية</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">0</span>
+              <span class="stat-label">دولة</span>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M12 5v14M19 12l-7 7-7-7" />
+          </svg>
+        </div>
+      </section>
+
+      <!-- Heritage Section -->
+      <section class="heritage" id="heritage">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">تراثنا العريق</span>
+            <h2 class="section-title">روائع التراث المغربي</h2>
+            <p class="section-description">
+              اكتشف الكنوز الثقافية المغربية التي تمتد جذورها عبر قرون من
+              الإبداع والأصالة
+            </p>
+          </div>
+
+          <div class="heritage-grid">
+            <div class="heritage-card" data-modal="caftan">
+              <div class="heritage-image">
+                <img src="image/caftan-dress.jpg" alt="القفطان المغربي" />
+                <div class="heritage-overlay">
+                  <span class="heritage-view">عرض التفاصيل</span>
+                </div>
+              </div>
+              <div class="heritage-content">
+                <h3>القفطان المغربي</h3>
+                <p>
+                  تحفة فنية من الأزياء التقليدية تجسد روعة الحرف اليدوية
+                  المغربية
+                </p>
+              </div>
+            </div>
+
+            <div class="heritage-card" data-modal="zellige">
+              <div class="heritage-image">
+                <img src="image/zellige.png" alt="فن الزليج" />
+                <div class="heritage-overlay">
+                  <span class="heritage-view">عرض التفاصيل</span>
+                </div>
+              </div>
+              <div class="heritage-content">
+                <h3>فن الزليج</h3>
+                <p>فسيفساء هندسية بديعة تزين القصور والمساجد منذ قرون</p>
+              </div>
+            </div>
+
+            <div class="heritage-card" data-modal="clothing">
+              <div class="heritage-image">
+                <img
+                  src="image/traditional-clothing.jpg"
+                  alt="الجلابة والبلغة"
+                />
+                <div class="heritage-overlay">
+                  <span class="heritage-view">عرض التفاصيل</span>
+                </div>
+              </div>
+              <div class="heritage-content">
+                <h3>الجلابة والبلغة</h3>
+                <p>أزياء تقليدية تعكس الهوية المغربية الأصيلة</p>
+              </div>
+            </div>
+
+            <div class="heritage-card" data-modal="landmark">
+              <div class="heritage-image">
+                <img src="image/landmark.jpg"المعالم التاريخية" />
+                <div class="heritage-overlay">
+                  <span class="heritage-view">عرض التفاصيل</span>
+                </div>
+              </div>
+              <div class="heritage-content">
+                <h3>المعالم التاريخية</h3>
+                <p>صروح معمارية خالدة تحكي قصة حضارة عريقة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News Section -->
+      <section class="news" id="news">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">آخر المستجدات</span>
+            <h2 class="section-title">أخبار المنظمة</h2>
+            <p class="section-description">
+              تابع أحدث الأنشطة والفعاليات التي تنظمها المنظمة داخل المغرب
+              وخارجه
+            </p>
+          </div>
+
+          <div class="news-grid">
+            
+              </div>
+              <div class="news-content">
+                <time class="news-date"></time>
+                <p>
+            
+                <a href="#" class="news-link"></a>
+              </div>
+            </article>
+
+            <article class="news-card">نموذج بطاقة العضوية للمنظمة المغربية للديبلوماسية الموازية داخل الوطن وخارجه.
+
+          
+               " 
+              </div>
+              <img src="image/Picsart_26-04-10_13-32-51-502.jpg" width="200">
+<img src="image/IMG-20260410-WA0022.jpg" width="200>
+              
+              <div class="news-content">
+                <p>
+                
+
+                <p>
+                
+              </div>
+            </article>
+          </div>
+
+          <div class="news-more">
+            <a href="#" class="btn btn-outline">عرض جميع الأخبار</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Auth Section -->
+      <section class="auth" id="auth">
+        <div class="container">
+          <div class="auth-wrapper">
+            <div class="auth-info">
+              <h2>انضم إلينا</h2>
+              <p>
+                كن جزءاً من مجتمعنا الدبلوماسي وساهم في تعزيز الهوية المغربية
+                عالمياً
+              </p>
+              <ul class="auth-features">
+                <li>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  الوصول إلى الفعاليات الحصرية
+                </li>
+                <li>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  التواصل مع أعضاء المنظمة
+                </li>
+                <li>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  المشاركة في البرامج الدبلوماسية
+                </li>
+              </ul>
+            </div>
+
+            <div class="auth-form-container">
+              <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="login">
+                 
+                  />
+                
+                    
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    />
+                    <path
+                      fill="#EA4335"
+                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    />
+                  </svg>
+                 
+معلومات التواصل مع الإدارة المركزية في الأسفل
+                </button>
+              </form>
+
+              <form class="auth-form" id="register-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="register-firstname">الاسم الأول</label>
+                    <input
+                      type="text"
+                      id="register-firstname"
+                      placeholder="محمد"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="register-lastname">الاسم الأخير</label>
+                    <input
+                      type="text"
+                      id="register-lastname"
+                      placeholder="العلوي"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="register-email">البريد الإلكتروني</label>
+                  <input
+                    type="email"
+                    id="register-email"
+                    placeholder="example@email.com"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="register-password">كلمة المرور</label>
+                  <input
+                    type="password"
+                    id="register-password"
+                    placeholder="••••••••"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="checkbox">
+                    <input type="checkbox" required />
+                    <span>أوافق على <a href="#">الشروط والأحكام</a></span>
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                  إنشاء حساب
+                </button>
+                <div class="auth-divider">
+                  <span>أو</span>
+                </div>
+                <button type="button" class="btn btn-google">
+                  <svg viewBox="0 0 24 24" width="20" height="20">
+                    <path
+                      fill="#4285F4"
+                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                    />
+                    <path
+                      fill="#EA4335"
+                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                    />
+                  </svg>
+                  المتابعة مع Google
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">تواصل معنا</span>
+            <h2 class="section-title">نحن هنا لمساعدتك</h2>
+            <p class="section-description">
+              لا تتردد في التواصل معنا لأي استفسار أو للمشاركة في أنشطتنا
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <h3>العنوان</h3>
+                <p>
+                  طريق أسول رقم 163<br />
+                  مراكش
+                </p>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    />
+                  </svg>
+                </div>
+                <h3>الهاتف</h3>
+                <p dir="ltr">+212 697-926843</p>
+                <p dir="ltr"></p>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <h3>البريد الإلكتروني</h3>
+                <p>official.paradiplomacy.ma@gmail.com</p>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
+                <h3>ساعات العمل</h3>
+                <p>الإثنين - الجمعة<br />9:00 صباحاً - 5:00 مساءً</p>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">الاسم الكامل</label>
+                  <input
+                    type="text"
+                    id="contact-name"
+                    placeholder="أدخل اسمك"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">البريد الإلكتروني</label>
+                  <input
+                    type="email"
+                    id="contact-email"
+                    placeholder="example@email.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">الموضوع</label>
+                <select id="contact-subject" required>
+                  <option value="">اختر الموضوع</option>
+                  <option value="general">استفسار عام</option>
+                  <option value="membership">العضوية</option>
+                  <option value="events">الفعاليات</option>
+                  <option value="partnership">الشراكات</option>
+                  <option value="other">أخرى</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">الرسالة</label>
+                <textarea
+                  id="contact-message"
+                  rows="5"
+                  placeholder="اكتب رسالتك هنا..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  width="20"
+                  height="20"
+                >
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+                إرسال الرسالة
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="footer-logo">
+              <div class="logo-icon">
+                <img src="image/logo.png" alt="logo" />
+              </div>
+              <div class="logo-text">
+                <span class="logo-title">المنظمة المغربية</span>
+                <span class="logo-subtitle">للديبلوماسية الموازية</span>
+              </div>
+            </a>
+            <p class="footer-description">
+              نعمل على تعزيز الهوية المغربية الوطنية و الثقافية و الدينية وبناء
+              جسور التواصل بين المغرب و العالم من خلال الدبلوماسية الموازية في
+            </p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  width="20"
+                  height="20"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a href="#" aria-label="YouTube">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                  />
+                  <polygon
+                    points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>روابط سريعة</h4>
+            <ul>
+              <li><a href="#home">الرئيسية</a></li>
+              <li><a href="#heritage">التراث</a></li>
+              <li><a href="#news">الأخبار</a></li>
+              <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>خدماتنا</h4>
+            <ul>
+              <li><a href="#">الفعاليات الثقافية</a></li>
+              <li><a href="#">البرامج الدبلوماسية</a></li>
+              <li><a href="#">الشراكات الدولية</a></li>
+              <li><a href="#">التبادل الثقافي</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>الدعم</h4>
+            <ul>
+              <li><a href="#">الأسئلة الشائعة</a></li>
+              <li><a href="#">سياسة الخصوصية</a></li>
+              <li><a href="#">الشروط والأحكام</a></li>
+              <li><a href="#">اتصل بنا</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 المنظمة المغربية للديبلوماسية الموازية. جميع الحقوق
+            محفوظة.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Heritage Modals -->
+    <div class="modal" id="modal-caftan">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="إغلاق">&times;</button>
+        <img src="image/caftan-dress.jpg" alt="القفطان المغربي" />
+        <h3>القفطان المغربي</h3>
+        <p>
+          القفطان المغربي هو لباس تقليدي فاخر يعود تاريخه إلى قرون عديدة. يتميز
+          بتطريزاته الدقيقة وأقمشته الفاخرة من الحرير والمخمل، ويُعتبر رمزاً
+          للأناقة والرقي في المناسبات الخاصة. يُصنع القفطان بأيدي حرفيين مهرة
+          يتوارثون هذه الحرفة جيلاً بعد جيل، حيث قد يستغرق صنع قفطان واحد أسابيع
+          من العمل المتواصل.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-zellige">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="إغلاق">&times;</button>
+        <img src="image/zellige.png" alt="فن الزليج" />
+        <h3>فن الزليج</h3>
+        <p>
+          الزليج هو فن الفسيفساء المغربية الذي يعود إلى القرن العاشر الميلادي.
+          تُصنع قطع الزليج يدوياً من الطين المحروق ثم تُطلى وتُقطع إلى أشكال
+          هندسية دقيقة. تُستخدم هذه القطع لتزيين الجدران والأرضيات والنوافير في
+          القصور والمساجد والمنازل التقليدية، مُشكّلة أنماطاً هندسية معقدة تعكس
+          عبقرية الفن الإسلامي المغربي.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-clothing">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="إغلاق">&times;</button>
+        <img src="image/traditional-clothing.jpg" alt="الجلابة والبلغة" />
+        <h3>الجلابة والبلغة</h3>
+        <p>
+          الجلابة هي لباس تقليدي مغربي يرتديه الرجال والنساء على حد سواء. تتميز
+          بتصميمها الفضفاض المريح وقلنسوتها المميزة. أما البلغة فهي حذاء جلدي
+          تقليدي يُصنع يدوياً من جلد الماعز أو البقر، ويُعتبر رمزاً للحرفية
+          المغربية العريقة التي تتوارثها الأجيال في مدن فاس ومراكش.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-landmark">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="إغلاق">&times;</button>
+        <img src="image/landmark.jpg" alt="المعالم التاريخية" />
+        <h3>المعالم التاريخية</h3>
+        <p>
+          يزخر المغرب بمعالم تاريخية فريدة تشهد على حضارته العريقة. من مسجد
+          الحسن الثاني في الدار البيضاء، أحد أكبر المساجد في العالم، إلى مدينة
+          فاس العتيقة بأزقتها المتعرجة ومدارسها التاريخية، ومن قصر الباهية في
+          مراكش إلى أطلال وليلي الرومانية. كل معلم يحكي قصة حقبة من تاريخ المغرب
+          الغني.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
