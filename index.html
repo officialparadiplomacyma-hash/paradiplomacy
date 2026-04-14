@@ -195,13 +195,112 @@
               </div>
             </article>
 
-            <article class="news-card">نموذج بطاقة العضوية للمنظمة المغربية للديبلوماسية الموازية داخل الوطن وخارجه.
 
-          
+          <p>نموذج بطاقة العضوية للمنظمة المغربية للديبلوماسية الموازية داخل الوطن وخارجه.</p>
+
+<style>
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+</style>
                " 
-              </div>
-              <img src="image/Picsart_26-04-10_13-32-51-502.jpg" width="200">
-<img src="image/IMG-20260410-WA0022.jpg" width="200>
+          <style>
+.zoom-img {
+  width: 300px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.zoom-img:hover {
+  transform: scale(1.05);
+}
+
+/* overlay (fullscreen) */
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+#overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  transform: scale(1);
+}
+</style>
+
+<img src="image/IMG-20260410-WA0022.jpg" class="zoom-img" onclick="openImg(this)">
+
+<div id="overlay" onclick="closeImg()">
+  <img id="bigImg">
+</div>
+
+<script>
+function openImg(img) {
+  document.getElementById("overlay").style.display = "flex";
+  document.getElementById("bigImg").src = img.src;
+}
+
+function closeImg() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+
+<style>
+.zoom-img {
+  width: 300px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.zoom-img:hover {
+  transform: scale(1.05);
+}
+
+/* overlay (fullscreen) */
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+#overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  transform: scale(1);
+}
+</style>
+
+<img src="image/Picsart_26-04-10_13-32-51-502.jpg" class="zoom-img" onclick="openImg(this)">
+
+<div id="overlay" onclick="closeImg()">
+  <img id="bigImg">
+</div>
+
+<script>
+function openImg(img) {
+  document.getElementById("overlay").style.display = "flex";
+  document.getElementById("bigImg").src = img.src;
+}
+
+function closeImg() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+
               
               <div class="news-content">
                 <p>
